@@ -239,5 +239,10 @@ p {
 /* footer section */
 .footer-sec {
     background-color: #000;
-    padding: 2%;
+    padding: 1%;
+}
+
+.footer-sec h1 {
+    color: blue;
+    font-family: 'The Nautigal', cursive;
 }
