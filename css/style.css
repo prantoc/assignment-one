@@ -8,7 +8,11 @@ h1 {
 }
 
 p {
-    color: #fff;
+    color: grey;
+}
+
+.d-flex {
+    display: flex;
 }
 
 .text-center {
@@ -19,6 +23,7 @@ p {
     margin-bottom: 150px;
 }
 
+/* banner-section  */
 .banner-sec {
     background-image: url(../img/donate1.jpg);
     background-size: cover;
@@ -36,6 +41,7 @@ p {
 
 .banner-sec p {
     padding-bottom: 3%;
+    color: #fff;
 }
 
 .donate-button {
@@ -44,4 +50,45 @@ p {
     padding: 15px 30px;
     border-radius: 5px;
     color: #fff;
+}
+
+/* donation priceing box section */
+.donate-sec {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.price-box {
+    background-color: rgba(39, 226, 245, 0.07);
+    padding: 7px;
+    margin: 20px 23px;
+    width: 111px;
+    font-weight: 700;
+}
+
+.price-box h2 {
+    font-weight: 800;
+    color: gray;
+}
+
+.box-selected {
+    border: 3px solid blue;
+    background-color: rgb(39 226 245 / 13%);
+}
+
+.box-selected h2 {
+    color: blue;
+}
+
+.amount-filed input {
+    outline: none;
+    border: none;
+    height: 2em;
+    width: 68%;
+    font-size: 15px;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #80808047;
+    text-align: center;
+    color: #00000070;
+    margin: 6% 0;
 }
