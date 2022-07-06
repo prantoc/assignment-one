@@ -19,8 +19,16 @@ p {
     text-align: center;
 }
 
+.text-left {
+    text-align: left;
+}
+
 .margin-bottom {
     margin-bottom: 150px;
+}
+
+.margin-top {
+    margin-top: 100px;
 }
 
 /* banner-section  */
@@ -91,4 +99,145 @@ p {
     text-align: center;
     color: #00000070;
     margin: 6% 0;
+}
+
+
+/* donate plan */
+.donate-plan .donate-plan-box {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 6%;
+}
+
+.plan-box-one {
+    background-color: rgba(39, 226, 245, 0.07);
+    width: 30%;
+    padding: 3%;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+.plan-box-one img {
+    width: 60px;
+}
+
+.plan-box-one p {
+    font-size: 14px;
+}
+
+.plan-box-two {
+    background-color: rgba(245, 39, 39, 0.07);
+    width: 30%;
+    padding: 3%;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+.plan-box-two img {
+    width: 60px;
+}
+
+.plan-box-two p {
+    font-size: 14px;
+}
+
+.plan-box-three {
+    background-color: rgba(245, 229, 39, 0.07);
+    width: 30%;
+    padding: 3%;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+.plan-box-three img {
+    width: 60px;
+}
+
+.plan-box-three p {
+    font-size: 14px;
+}
+
+/* contribute section */
+.contribute-section {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 0 7%;
+}
+
+.contribute-text {
+    width: 46%;
+    padding: 0px 41px;
+}
+
+.contribute-btn {
+    margin-top: 55px;
+}
+
+.contribute-img img {
+    width: 410px;
+    height: 370px;
+    border-radius: 10px;
+}
+
+
+/* location section */
+.location-section {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 0 7%;
+}
+
+.location-text {
+    width: 36%;
+    padding: 0px 41px;
+}
+
+.location-text h2 {
+    border-bottom: 1px solid gray;
+    border-right: 2%;
+}
+
+.location-btn {
+    margin-top: 55px;
+}
+
+.location-img {
+    width: 60%;
+}
+
+.location-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* subscribe plan */
+.subscribe {
+    background: rgba(245, 229, 39, 0.07);
+    padding: 65px;
+    margin-top: 5%;
+}
+
+.subscribe input {
+    border: none;
+    outline: none;
+    width: 65%;
+    font-size: 15px;
+    background: #9e9e9e;
+    padding: 12px 22px;
+    border-radius: 5px;
+}
+
+.subscribe-button {
+    background-color: blue;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* footer section */
+.footer-sec {
+    background-color: #000;
+    padding: 2%;
 }
